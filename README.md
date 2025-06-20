@@ -1,8 +1,13 @@
+# NorizzClient Launcher
+
+The NorizzClient Launcher is the NoriskClient Launcher but without the unnecessary collection of user's HWIDs
+
 ## Issues
 
 If you notice any bugs or missing features, you can let us know by opening an issue [here](https://github.com/NoRiskClient/issues/issues/new/choose).
 
 ## License
+This code is mostly 99.99+% coming from [NoriskClient](https://github.com/NoRiskClient/noriskclient-launcher)  
 This code is originally forked and still uses a small amount of code from [LiquidLauncher](https://github.com/CCBlueX/LiquidLauncher).
 
 Therefore, this project is also subject to the [GNU General Public License v3.0](LICENSE). This does only apply for source code located directly in this clean repository. During the development and compilation process, additional source code may be used to which we have obtained no rights. Such code is not covered by the GPL license.
