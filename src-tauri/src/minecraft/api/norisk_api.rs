@@ -256,7 +256,7 @@ impl NoRiskApi {
         force: bool,
         is_experimental: bool,
     ) -> Result<NoRiskToken> {
-        info!("[NoRisk API] Refreshing NoRisk token v3 with HWID: {}", hwid);
+        info!("[NoRisk API] Refreshing NoRisk token v3 with no HWID because we hate tracking users.");
         debug!("[NoRisk API] Username: {}", username);
         debug!("[NoRisk API] Force refresh: {}", force);
         debug!("[NoRisk API] Experimental mode: {}", is_experimental);
@@ -284,7 +284,7 @@ impl NoRiskApi {
         let force_str = force.to_string();
         let mut query_params = HashMap::new();
         query_params.insert("force", force_str.as_str());
-        query_params.insert("hwid", hwid);
+        query_params.insert("hwid", server_id);
         query_params.insert("username", username);
         query_params.insert("server_id", server_id);
 
